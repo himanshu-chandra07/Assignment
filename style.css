@@ -1,0 +1,65 @@
+.clear{
+	clear: both;
+}
+.div1{
+	text-align: center;
+}
+.div2{
+ text-align: center;
+}
+.div3{
+	text-align: center;
+}
+.logo{
+	height:600px;
+    float: left;
+}
+.first{
+float: left;
+text-align: center;
+	margin-left: 100px;
+	margin-top: 15px;
+	font-size: 25px;
+}
+.row1{
+	height: 600px;   
+	
+}
+
+.row2{
+	height: 150px;
+    margin-left: 380px;
+}
+.row3{
+	height: 300px;
+	margin-left: 380px;
+}
+.section1{
+	text-align: center;
+	width: 100px;
+	
+	float: left;
+}
+.section2{
+	
+	text-align: center;
+	width: 80px;
+	float: left;
+	padding-left: 100px;
+}
+
+.skills{
+	margin-left: 380px;
+}
+.sk1{
+	height: 60px;
+}
+.skills1{
+
+	float: left;
+}
+.skills2{
+	padding-left: 100px;
+
+	float: left;
+}

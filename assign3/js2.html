@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+<html> 
+  
+<head> 
+    <title> 
+        count string occurrence in a string 
+    </title> 
+</head> 
+  
+<body style="text-align:center;"> 
+  
+    <h1 style="color:green;">  
+        Shreya Mathur 
+    </h1> 
+    <h3> 
+      count string occurrence in a string  
+  </h3> 
+  
+    <button onClick="sm()"> 
+        count 
+    </button> 
+    <p id="rk"> 
+  
+    </p> 
+  
+    <script> 
+        function sm() { 
+            var r = "Shreya Mathur "; 
+            document.getElementById("rk").innerHTML = 
+              (r.match(/Shreya/s)).length; 
+  
+        } 
+    </script> 
+</body> 
+  
+</html> 

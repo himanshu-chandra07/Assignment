@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>js5</title>
+</head>
+<body>
+<script>    
+    function getUnique(array){
+        var uniqueArray = [];
+        
+        for(i=0; i < array.length; i++){
+            if(uniqueArray.indexOf(array[i]) === -1) {
+                uniqueArray.push(array[i]);
+            }
+        }
+        return uniqueArray;
+    }
+    
+    var names = ["Mohan", "Sohan", "Kirti", "Sonali", "Ram", "Rohan"];
+    var uniqueNames = getUnique(names);
+    console.log(uniqueNames);
+</script>
+</body>
+</html>
